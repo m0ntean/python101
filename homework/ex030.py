@@ -4,7 +4,8 @@ i = 0
 while i < 5:
     i = i + 1
     y = x * i
-while i > 5:
+    print(y)
+while i <= 5 and i > 0:
     i = i - 1
     z = x * i
-    print(y, z)
+    print(z)

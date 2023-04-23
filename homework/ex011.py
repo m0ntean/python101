@@ -1,5 +1,3 @@
-breakpoint()
-
 def cut_chars(s, n):
 
     return s[-n:]

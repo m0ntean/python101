@@ -1,12 +1,10 @@
 while True:
     try:
-        
-        x = int(input('Enter number1:'))
-        a = int(input('Enter number2:'))
-        b = int(input('Enter number3:'))
-        c = int(input('Enter number4:'))
-        e = int(input('Enter number5:'))
-        print('We got', [x, a, b, c, e,] )
+        y = []
+        for i in range(1, 6):
+            x = float(input(f'Enter number{i}:'))
+            y.append(x)
+        print('We got', y )
         break
     except:
         print('Try again')

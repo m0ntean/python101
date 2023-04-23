@@ -1,3 +1,11 @@
-x = 121
-if x == x *1:
-    print(True)
+def func(x):
+
+    y = str(x)
+    if y == y[::-1]:
+        return True
+    else:
+        return False
+
+
+x = func(543)
+print(x)
